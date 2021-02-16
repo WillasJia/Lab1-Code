@@ -36,7 +36,13 @@ int usageMessage(char* programName) {
 }
 
 int main(int argc, char* argv[])
-{
+{   
+    const int argcNum = 2;
+    const int programName = 0;
+    if (argc = argcNum) {}
+    else {
+        return usageMessage(argv[programName]);
+    }
     std::cout << "Hello World!\n";
 }
 
